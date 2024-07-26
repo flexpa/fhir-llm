@@ -1,0 +1,17 @@
+{
+  "name": "@flexpa/fhir-llm",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "openai": "^4.53.1"
+  }
+}
